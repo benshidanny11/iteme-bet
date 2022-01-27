@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  background-color: #f3f6ff;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+}
+
+.content-container {
+  padding: 1.2rem;
+}
+
+.top-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-message > p {
+  color: #21409a;
+}
+
+.header {
+  height: 10%;
+  background-color: #f1b71c;
+  padding: 1rem 0.3rem;
+}
+
+.ver-divider {
+  height: 90%;
+  width: 2px;
+  background-color: #21409a;
+}
+
+.col-4 > h3 {
+  color: #21409a;
+}
+
+.col-4 > h5 {
+  color: #21409a;
+}
+.box-header {
+  background-color: #21409a;
+}
+
+.box-header p {
+  color: #fff;
+}
+
+.grid-container {
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: repeat(5, 1fr);
+  margin-top: 1rem;
+  overflow: auto;
+  padding: 0 0 0 1rem;
+}
+
+.box-right {
+  background-color: #fff;
+  padding: .4rem;
+  overflow: auto;
+  box-shadow: 0 0 5px rgba(181, 181, 181, 0.65);
+}
+
+.box-right>h4 {
+    color: #21409a;
+    text-align: center;
+}
+
+.alert-primary {
+  background-color: #d8e0f6;
+}
+
+ul {
+    padding-inline-start: 0;
+    list-style-type: none;
+}
+
+ul> .alert-primary {
+    background: #d8e0f6; 
+}
+
+ul> .alert-primary:nth-child(odd) {
+  background: #e5e5e5;
+}
+
+.box-header {
+  padding: 0.2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.balls-container {
+  display: flex;
+  overflow: auto;
+}
+
+.ball {
+  width: 48px;
+  height: 48px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 3px solid #21409a;
+  color: #21409a;
+  font-weight: bold;
+  padding: 0 0;
+  margin-left: .3rem;
+}
+
+.balls-container> button:last-child {
+    background-color: rgb(242, 183, 29);
+}
+
+.box-bottom {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-bottom >button:first-child {
+    padding: .3rem 3rem !important;
+    color: #fff;
+}
+
+.btn-warning {
+    padding: .3rem 3rem !important;
+    color: #fff;
+}
+
+.btn-warning:hover {
+    color: #fff;
+} 
+
+.btn-danger {
+    padding: .3rem 3rem !important;
+}
+
+.d-flex>h5 {
+    margin-left: 2rem;
+}
